@@ -26,7 +26,7 @@ export class NewsItem extends Component {
                   By {auther} on {new Date(date).toLocaleTimeString()}.
                 </small>
                </p>
-               <a href={newsUrl} target='_blank' className="btn btn-sm btn-primary">
+               <a href={newsUrl} target='_blank' rel="noreferrer" className="btn btn-sm btn-primary">
                  Read More
                </a>
              </div>
